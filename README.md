@@ -21,11 +21,30 @@ You can click the Preview link to take a look at your changes.
 - ⚡ You can fell free to see my repositories.
 
 ------------------------
+<!-- Badges--->
 Tecnologias:
 
 ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ------
 <!-- Wakatime--->
-[![RenatoMAP77 wakatime stats](https://wakatime.com/@RenatoMAP77)]
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=RenatoMAP77)](https://github.com/anuraghazra/github-readme-stats)
+<table>
+    <tr>
+        <td>
+            <a href="https://wakatime.com/@RenatoMAP77">
+                <img src="https://wakatime.com/@RenatoMAP77" alt="RenatoMAP77 wakatime stats">
+            </a>
+        </td>
+        <td>
+            <a href="https://github.com/anuraghazra/github-readme-stats">
+                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RenatoMAP77" alt="Top Langs">
+            </a>
+        </td>
+    </tr>
+</table>
+<!-- Profile Views--->
+<img width="175" alt="Profile visitors" src="https://komarev.com/ghpvc/?username=RenatoMAP77"/>
