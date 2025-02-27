@@ -21,5 +21,10 @@ You can click the Preview link to take a look at your changes.
 - ⚡ You can fell free to see my repositories.
 
 ------------------------
+Tecnologias:
+
+![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+------
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=RenatoMAP77)](https://github.com/anuraghazra/github-readme-stats)
