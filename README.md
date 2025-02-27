@@ -48,3 +48,4 @@ Tecnologias:
 </table>
 <!-- Profile Views--->
 <img width="175" alt="Profile visitors" src="https://komarev.com/ghpvc/?username=RenatoMAP77"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=17F77D&width=435&lines=//Foi+um+prazer+ter+voc%C3%AA+por+aqui!;//Volte+sempre!" alt="Typing SVG" />
