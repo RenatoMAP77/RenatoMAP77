@@ -20,6 +20,14 @@ You can click the Preview link to take a look at your changes.
 - 📫 You can reach me by my social medias, at my profile!
 - ⚡ You can fell free to see my repositories.
 
+Olá! Meu nome é Renato Matos!
+
+Atualmente cursando Engenharia de Software pela PUCMinas.
+
+Estou sempre em busca de novos apredizados, buscando me aperfeiçoar profissionalmente.
+
+Trabalho com desenvolvimento de Software, utilizando tecnologias como Java, Spring, React, Next JS, MySQL dentre outras. Também estou trabalhando atualmente como desenvolvedor SAP ABAP.
+
 ------------------------
 <!-- Badges--->
 Tecnologias:
