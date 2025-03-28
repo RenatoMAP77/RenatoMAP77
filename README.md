@@ -44,7 +44,7 @@ Tecnologias:
     <tr>
         <td>
             <a href="https://wakatime.com/@RenatoMAP77">
-                <img src="https://github-readme-stats.vercel.app/api/wakatime?username=RenatoMAP77" alt="WakaTime Stats">
+                <img alt="WakaTime" src="https://github-readme-stats.vercel.app/api/wakatime?username=RenatoMAP77&theme=dark&layout=compact"/>
             </a>
         </td>
         <td>
