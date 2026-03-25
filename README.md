@@ -35,21 +35,6 @@ Também estou aberto a oportunidades de estágio ou trabalho na área de desenvo
 
 ---
 
-### 📊 GitHub Stats
-
-<table>
-  <tr>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=RenatoMAP77&show_icons=true&theme=radical" alt="Renato's GitHub Stats"/>
-    </td>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RenatoMAP77&layout=compact&theme=radical" alt="Top Languages"/>
-    </td>
-  </tr>
-</table>
-
----
-
 ### ⏱️ Wakatime
 
 [![WakaTime](https://github-readme-stats.vercel.app/api/wakatime?username=RenatoMAP77&theme=radical&layout=compact)](https://wakatime.com/@RenatoMAP77)
