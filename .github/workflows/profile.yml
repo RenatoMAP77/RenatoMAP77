@@ -1,0 +1,45 @@
+name: Update profile SVGs
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  push:
+    branches: [main]
+    paths: ["scripts/**", ".github/workflows/profile.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-update
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate SVGs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_PAT: ${{ secrets.GH_PAT }}                    # optional: counts private contributions
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}  # optional: last 30 days instead of all time
+        run: python scripts/generate_profile.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/
+          if ! git diff --staged --quiet; then
+            git commit -m "chore(profile): update SVGs [skip ci]"
+            git pull --rebase origin main
+            git push origin main
+          fi
