@@ -361,10 +361,11 @@ text{{font-family:{SANS};fill:{c['text']}}}
     y = 62
     for i, l in enumerate(waka["langs"]):
         col = LANG_COLORS.get(l["name"], c["muted"])
-        b.append(lang_mark(l["name"], WX + 30, y - 4.5, 16, col, theme))
-        b.append(f'<text x="{WX + 44}" y="{y}" font-size="13" font-weight="500">{esc(l["name"])}</text>')
+        # icon spans the whole row (name + bar) so it reads as one unit
+        b.append(lang_mark(l["name"], WX + 33, y + 0.5, 22, col, theme))
+        b.append(f'<text x="{WX + 52}" y="{y}" font-size="13" font-weight="500">{esc(l["name"])}</text>')
         b.append(f'<text class="mono mut" x="{WX + WW - 22}" y="{y}" text-anchor="end" font-size="11.5">{l["pct"]:.0f}%</text>')
-        bx, bw = WX + 44, WW - 66
+        bx, bw = WX + 52, WW - 74
         b.append(f'<rect x="{bx}" y="{y + 7}" width="{bw}" height="4" rx="2" fill="{c["track"]}"/>')
         b.append(f'<rect class="bar" style="animation-delay:{0.25 + i * 0.1:.2f}s" x="{bx}" y="{y + 7}" '
                  f'width="{max(3, bw * l["fill"]):.1f}" height="4" rx="2" fill="{col}"/>')
@@ -385,9 +386,9 @@ text{{font-family:{SANS};fill:{c['text']}}}
 
     # Row 3: stack chips with icons
     Y3 = Y2 + R2 + G
-    b.append(f'<text class="eyebrow" x="22" y="{Y3 + 38}">STACK</text>')
-    chip_svg, bottom = chips(STACK, 88, Y3 + 18, W - 88 - 18, 30, 7, c["chip"], c["border"], c["text"], 15, SANS, theme)
-    R3 = bottom - Y3 + 18
+    b.append(f'<text class="eyebrow" x="22" y="{Y3 + 32}">STACK</text>')
+    chip_svg, bottom = chips(STACK, 22, Y3 + 46, W - 44, 30, 7, c["chip"], c["border"], c["text"], 15, SANS, theme)
+    R3 = bottom - Y3 + 20
     b.insert(len(b) - 1, card(0, Y3, W, R3, c))
     b.append(chip_svg)
     return svg(W, int(Y3 + R3), "".join(b), style, f"{PROFILE['name']} — GitHub profile")
